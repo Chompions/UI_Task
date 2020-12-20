@@ -23,8 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^0.5.12+4
-  path_provider: ^1.6.24
+  path: ^1.7.0
+  sqflite: ^1.3.2+1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -66,11 +66,9 @@ flutter:
     - family: OpenSans
       fonts:
         - asset: fonts/OpenSans-Regular.ttf
-        # - asset: fonts/OpenSans-Light.ttf
-        #   style: light
-        # - asset: fonts/OpenSans-SemiBold.ttf
-        #   style: semibold
-        # pilihan lain itu salah
+    # - family: MaterialIcons
+    #   fonts:
+    #     - asset: fonts/MaterialIcons-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

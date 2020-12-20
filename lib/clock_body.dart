@@ -11,12 +11,6 @@ class _ClockBodyState extends State<ClockBody> {
   double _scrollExtent = 0.2;
 
   @override
-  void initState() {
-    writeContent();
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     double screenHeight = MediaQuery.of(context).size.height;
@@ -76,9 +70,7 @@ class _ClockBodyState extends State<ClockBody> {
                       ),
                       child: Icon(Icons.add),
                     ),
-                    onPressed: () {
-                      readContent();
-                    }),
+                    onPressed: null),
               ),
             )
           ],
